@@ -1,0 +1,22 @@
+{
+  "name": "tb1-portofolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "events": "^3.3.0",
+    "gsap": "^3.11.3",
+    "lil-gui": "^0.17.0",
+    "three": "^0.145.0",
+    "vite": "^3.1.0",
+    "vite-plugin-mkcert": "^1.10.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-basic-ssl": "^0.1.2"
+  }
+}

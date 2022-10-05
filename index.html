@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testing</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="light-theme">
+
+    
+    <div class="experience">
+      <canvas class="experience-canvas"></canvas>
+    </div>
+
+    <div class="page">
+
+      <div class="toggle-bar">
+        <div class="sun-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path fill="currentColor" d="M17.2 15.075q-.375-.15-.55-.538-.175-.387-.025-.762.175-.425.25-.888.075-.462.075-1.062 0-1.875-1.425-3.338Q14.1 7.025 12.15 7.025q-.5 0-.987.075-.488.075-.963.275-.4.175-.775 0T8.9 6.8q-.15-.4.013-.775.162-.375.562-.525.65-.25 1.3-.363.65-.112 1.375-.112 2.825 0 4.812 2 1.988 2 1.988 4.8 0 .8-.087 1.425-.088.625-.338 1.275-.15.375-.537.525-.388.15-.788.025ZM12 3q-.425 0-.712-.288Q11 2.425 11 2V1q0-.425.288-.713Q11.575 0 12 0t.713.287Q13 .575 13 1v1q0 .425-.287.712Q12.425 3 12 3Zm0 21q-.425 0-.712-.288Q11 23.425 11 23v-1q0-.425.288-.712Q11.575 21 12 21t.713.288Q13 21.575 13 22v1q0 .425-.287.712Q12.425 24 12 24Zm6.35-18.375q-.3-.3-.3-.713 0-.412.3-.712l.7-.7q.3-.3.725-.3t.725.3q.3.3.288.712-.013.413-.313.713l-.7.7q-.3.3-.713.3-.412 0-.712-.3ZM3.525 20.475q-.3-.3-.3-.712 0-.413.3-.713l.7-.7q.275-.275.675-.275t.7.275q.3.275.325.7.025.425-.275.725l-.7.7q-.3.3-.712.3-.413 0-.713-.3ZM22 13q-.425 0-.712-.288Q21 12.425 21 12t.288-.713Q21.575 11 22 11h1q.425 0 .712.287.288.288.288.713t-.288.712Q23.425 13 23 13ZM1 13q-.425 0-.712-.288Q0 12.425 0 12t.288-.713Q.575 11 1 11h1q.425 0 .713.287Q3 11.575 3 12t-.287.712Q2.425 13 2 13Zm18.05 7.475-.7-.7q-.275-.275-.275-.675t.275-.7q.275-.3.7-.325.425-.025.725.275l.7.7q.3.3.288.7-.013.4-.288.7-.275.3-.7.312-.425.013-.725-.287ZM4.225 5.625l-.7-.7q-.3-.3-.288-.688.013-.387.288-.687.275-.3.7-.325.425-.025.725.275l.7.7q.3.3.3.712 0 .413-.3.713t-.712.3q-.413 0-.713-.3ZM12 19q-2.925 0-4.962-2.038Q5 14.925 5 12q0-1.025.312-2.062.313-1.038.963-1.963.125-.2.338-.313.212-.112.437-.112.275-.025.538.125.262.15.387.4 1.4 2.55 3.425 4.562Q13.425 14.65 15.975 16q.225.125.362.337.138.213.163.488.025.25-.1.475-.125.225-.325.375-.925.65-1.962.988Q13.075 19 12 19Zm0-2q.35 0 .688-.038.337-.037.712-.162-1.875-1.2-3.425-2.75-1.55-1.55-2.775-3.4-.1.35-.15.675Q7 11.65 7 12q0 2.125 1.488 3.55Q9.975 16.975 12 17Zm-1.8-3.175Z"/></svg>
+        </div>
+        <button class="toggle-button">
+          <div class="toggle-circle"></div>
+        </button>
+        <div class="moon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path fill="currentColor" d="M12.6 13.375ZM13.1 23h-2.6l.5-.312q.5-.313 1.088-.7.587-.388 1.087-.7l.5-.313q2.025-.15 3.738-1.225 1.712-1.075 2.712-2.875-2.15-.2-4.075-1.087-1.925-.888-3.45-2.413-1.525-1.525-2.425-3.45Q9.275 8 9.1 5.85 7.175 6.925 6.088 8.812 5 10.7 5 12.9v.3l-.3.137q-.3.138-.662.288-.363.15-.663.287l-.3.138q-.05-.275-.062-.575Q3 13.175 3 12.9q0-3.65 2.325-6.438Q7.65 3.675 11.25 3q-.45 2.475.275 4.837.725 2.363 2.5 4.138t4.138 2.5q2.362.725 4.837.275-.65 3.6-3.45 5.925Q16.75 23 13.1 23ZM6 21h4.5q.625 0 1.062-.438Q12 20.125 12 19.5t-.425-1.062Q11.15 18 10.55 18h-1.3l-.5-1.2q-.35-.825-1.1-1.312Q6.9 15 6 15q-1.25 0-2.125.863Q3 16.725 3 18q0 1.25.875 2.125T6 21Zm0 2q-2.075 0-3.537-1.462Q1 20.075 1 18q0-2.075 1.463-3.538Q3.925 13 6 13q1.5 0 2.738.812 1.237.813 1.837 2.188Q12 16.05 13 17.062q1 1.013 1 2.438 0 1.45-1.025 2.475Q11.95 23 10.5 23Z"/></svg>
+        </div>
+      </div>
+
+      <div class="page-wrapper">
+        <section class="hero">
+          <div class="hero-wrapper">
+
+            <div class="hero-main">
+              <h1 class="hero-main-title"> Teguh Wibowo </h1>
+              <p class="hero-main-description"> Mahasiswa Universitas Mercu Buana & UIN Jakarta</p>
+            </div>
+
+            <div class="hero-second">
+              <h1 class="hero-second-subheading"> Kitsuzune Yokohara</h1>
+              <p class="hero-second-subheading"> キツズネ ― ヨコハラ </p>
+            </div>
+
+          </div>
+
+        </section>
+
+        <div class="first-move section-margin"></div>
+
+        <section class="first-section section left">
+          <div class="section-intro-wrapper">
+            <h1 class="section-title">
+              <span class="section-title-text">About Me</span>
+              <div class="section-title-decoration styleOne"></div>
+              <div class="section-title-decoration styleTwo"></div>
+              <div class="section-title-decoration styleThree"></div>
+            </h1>
+            <span class="section-number">01</span>
+          </div>
+          
+        <div class="section-detail-wrapper">
+          <img src="img/bowo.png" alt="This Is Me :)" width="300" height="300" border="4" align="center">
+          <h3 class="section-heading"> Short Introduction About Me </h3>
+          <p class="section-text"> I Am An Enthusiastic, Self Motivated, Reliable, Responsible, and Hard Working Individual. I can work according to the time specified and easily adapt to certain situations such as team work. I'm also experienced in the world of editing for things like videos, animations, and photos </p>
+          <p class="section-text"> --------------------------------------------------------------------- </p>
+          <p class="section-text"> 「狐」キリガヤきつずね 「45」
+            虎穴に入らずんば虎子を得ず。</p>
+          <br>
+          <h3 class="section-heading"> What I Can Do? </h3>
+          <p class="section-text"> Honestly I am A Programmer At First, But Because Some Condition In My Life, Now I Already Become Multi-Talented self-train Person, What Did I Mean By That? I Can Do Pretty Much Skill Related To Computer Just Like Programming, Designing, Fotographic, And Also Journalis. Yep I Can Do All Of That :v..... Here Is My List Of Skill I Want To Tell You </p>
+          <ul class="section-text">
+            <li> 3D Designing 
+              <ul>
+                <li> Blender </li>
+                <li> Alice 3.0 </li>
+                <li> Maya </li>
+                <li> Sketchup </li>
+              </ul>
+            </li>
+            <li> Programming
+              <ul>
+                <li> Javasript (Node.js Intermediate)</li>
+                <li> C++ </li>
+                <li> Phyton </li>
+                <li> HTML & CSS </li>
+              </ul>
+            </li>
+            <li> Editing 
+              <ul>
+                <li> Adobe Premiere CC </li>
+                <li> Adobe After Effect CC </li>
+                <li> Adobe Ilustrator CC </li>
+                <li> Adobe Photoshop CC </li>
+                <li> Sony Vegas Pro </li>
+              </ul>
+            </li>
+          </ul>
+          <h3 class="section-heading"> Do I Have Any Honorable Award? </h3>
+          <p class="section-text"> it's I Also get As Indonesian Geospatial Challenge 2021 (5 finalist teams) What Is It? (BIG) The Geospatial Information Agency held a competition themed about the use of Geospatial Information Technology to support the achievement of the Sustainable Development Goals (SDGs). <a href="mutera.mercucode.my.id"> And here Is My Website for that competition </a> </p>
+
+        </div>
+
+        </section>
+
+
+        <div class="second-move section-margin"></div>
+
+        <section class="second-section section right">
+          <div class="section-intro-wrapper">
+            <h1 class="section-title">
+              <span class="section-title-text"> My Progress </span>
+              <div class="section-title-decoration styleOne"></div>
+              <div class="section-title-decoration styleTwo"></div>
+              <div class="section-title-decoration styleThree"></div>
+            </h1>
+            <span class="section-number">02</span>
+          </div>
+          
+        <div class="section-detail-wrapper">
+          <h3 class="section-heading"> Recent Education : </h3>
+          <table align="center" cellpadding="12" cellspacing="12" style="width: 114%;">
+            <thead>
+                <tr>
+                    <th>Level</th>
+                    <th>Place</th>
+                    <th>Degree</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>SMP</td>
+                    <td>SMPN 45 Jakarta</td>
+                    <td>General</td>
+                </tr>
+                <tr class="active-row">
+                    <td>SMA</td>
+                    <td>SMAN 84 Jakarta</td>
+                    <td>IPS</td>
+                </tr>
+                <tr>
+                    <td>S1</td>
+                    <td>Universitas Mercu Buana</td>
+                    <td>Information System</td>
+                </tr>
+                <tr>
+                    <td>S1</td>
+                    <td>UIN Syarif Hidayatullah</td>
+                    <td>Syariah Economic</td>
+                 </tr>
+            </tbody>
+        </table>
+          <h3 class="section-heading"> My Recent Experience : </h3>
+          <h4 class="section-text"> - MSI Event Documentator </h4>
+          <p class="section-text"> I am with Richard Permana One of the biggest legendary NXL eSports player from MSI, this is my first contract that i have been assigned i do a documentation of the MSI Pubstomp event in 2018 using a camera that i borrowed from my friend. </p>
+          <h4 class="section-text"> - Worklab.id Social Media Designer </h4>
+          <p class="section-text"> Recently I Work As Grpahic Designer In Thamrin, Indonesia As An Progressive StartUp for Like 2 Months, But For Some Reasen I Have To Resign Because Of Personal Matters.... Well Its Not Pearticulaary What's Your Thinking :v </p>
+          <h4 class="section-text"> - Elder & Volunteer Of ROG Elite Member </h4>
+          <p class="section-text"> I am Currently The Official Elder Member Of ROG Elite Team In Jakarta, Provided by Asus. I Always Attend A ROG Event And Even Become A Volunteer For Them, As An Community Leader I Take Big Part In Their Most Event To Be More Condusive </p>
+          <br> 
+          <h3 class="section-heading"> Certification : </h3>
+          <h4 class="section-text"> - <a href="https://digilearn-bucket.s3.ap-southeast-1.amazonaws.com/content/certificate/pathway/Digital_Mindset_and_Behaviour_IDT_265744.pdf"> Digital Mindset and Behaviour - Indonesian Digital Tribe </a> </h4>
+          <h4 class="section-text"> - <a href="https://www.dicoding.com/certificates/QLZ9192M7P5D"> Cloud Practitioner Essentials </a>  </h4>
+          <h4 class="section-text"> - <a href="https://www.credly.com/badges/4bee3f2b-0ef0-443d-8418-a2fadb9c79d0?source=linked_in_profile1"> Shopee Code League 2022 - Runner Up </a> </h4>
+        </div>
+
+        </section>
+
+        <div class="third-move section-margin"></div>
+
+        <section class="third-section section left">
+          <div class="section-intro-wrapper">
+            <h1 class="section-title">
+              <span class="section-title-text">Contact Me</span>
+              <div class="section-title-decoration styleOne"></div>
+              <div class="section-title-decoration styleTwo"></div>
+              <div class="section-title-decoration styleThree"></div>
+            </h1>
+            <span class="section-number">03</span>
+          </div>
+          
+        <div class="section-detail-wrapper">
+          <img src="img/1.gif" border="2">
+          <h3 class="section-heading"> Know More About Me </h3>
+          <p class="section-text"> You Can Add/Contact Me With One Of My Contact Down Here : <br>  - Whatsapp : +62 896 - 6467 - 5764 <br> - Instagram : @Kitsuzune089 <br> - Linkedin : Teguh (Kitsuzune Yokohara) Wibowo <br> - Email : teguhwmn189@gmail.com </p>
+          <h3 class="section-heading"> Notice Genshin Impact Vid Playing In My Room? </h3>
+          <p class="section-trext"> I See You Play That Game Too, I m pretty Active in that game for last 2 years You Can Add Me If You Want And We Can Play Together As Well :v. <br> Here Is My UID : 807867565 </p>
+          <h3 class="section-heading"> Give Me Your Suggestion About This :3 </h3>
+          <br>
+          <form action="URL to form script" method="POST">
+            Name: <br>
+            <input type="text" name="realname"><br>
+            <br>
+    
+            Email: <br>
+            <input type="text" name="email"><br>
+            <br>
+            
+            Your Suggestion: <br>
+            <textarea name="comments" rows="15" cols="50"></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+             
+            </form>
+          <br>
+          <h3> Your Voice Indeed Really Matter About My Progress In The future :3</h3>
+    
+        </div>
+
+        </section>
+
+      </div>
+
+    </div>
+    <script type="module" src="/main.js"></script>
+
+
+  </body>
+</html>
